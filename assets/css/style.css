@@ -359,6 +359,21 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.column {
+  float: left;
+  width: 33.33%;
+}
+.center {
+  display: block;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /*--------------------------------------------------------------
 # Facts
